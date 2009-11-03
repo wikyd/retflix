@@ -1,4 +1,3 @@
-* build way to request absolutely specified resources
 * manage etags for writing transparently
 * build way to specify netflix app id via .yml file
 * document
