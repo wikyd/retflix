@@ -8,7 +8,13 @@
 #++
 
 [
-  'retflix'
+  'rest_resource_translator',
+  'resource_error',
+  'session'
 ].each do |f|
   require File.dirname(__FILE__) + "/retflix/#{f}"
+end
+
+module Retflix
+  VERSION = '0.1.1'
 end
