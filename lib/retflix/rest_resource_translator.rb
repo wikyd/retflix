@@ -57,7 +57,6 @@ module Retflix
 
     private
     def parse_response(response)
-      puts "Class: #{response.class}"
       body = Nokogiri::XML.parse(response.body)
       case response
       when Net::HTTPSuccess
