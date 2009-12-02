@@ -4,6 +4,7 @@ require 'nokogiri'
 
 module Retflix
   RESOURCE_BASE = 'http://api.netflix.com'
+  NETFLIX_MAX_REQUEST = 500
   
   class Session
     

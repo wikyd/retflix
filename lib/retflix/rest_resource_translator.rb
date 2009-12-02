@@ -62,7 +62,7 @@ module Retflix
       when Net::HTTPSuccess
         return body
       else
-        raise ResourceError.new(response.code, body)
+        raise ResourceError.new(response.code, response.body)
       end
     end
   end
